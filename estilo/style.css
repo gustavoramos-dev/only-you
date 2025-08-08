@@ -14,6 +14,17 @@
     color: black;
 }
 
+.voltar {
+    font-size: 2.4em;
+    padding: 5px;
+    margin: 0px 10px 10px 0px;
+    text-align: left;
+}
+
+.extra {
+    text-decoration: underline;
+}
+
 header {
     background-image: linear-gradient(to bottom, var(--cor1), var(--cor3));
     padding: 0px 20px 20px 20px;
@@ -24,6 +35,11 @@ header h1, p {
     text-align: center;
     margin-bottom: 30px;
     padding-top: 15px;
+    font-size: 2em;
+}
+
+header p {
+    text-align: center;
     font-size: 2em;
 }
 
@@ -60,6 +76,10 @@ main {
     font-size: 1.2em;
 }
 
+p {
+    text-align: left;
+}
+
 .main {
     background-color: #faf8d49e;
     width: 900px;
@@ -74,6 +94,7 @@ main h2 {
     background-color: var(--cor1); /* verde claro */
     padding: 0; /* sem padding pra não criar espaço nas bordas */
     border-radius: 10px 10px 0px 0px;
+    
 }
 
 .l2 h3 {
@@ -82,19 +103,29 @@ main h2 {
     padding: 10px 15px;
     border-radius: 10px 10px 0 0; /* cantos superiores arredondados */
     margin: 0; /* sem margem para não quebrar o fundo */
+    font-size: 2em;
 }
 
 .l2 ul {
     list-style: none;
     margin: 0;
     padding: 15px; /* espaço interno da lista */
+    
 }
 
 .l2 li {
     margin: 5px 0;
+    
 }
 
+li {
+    font-size: 1.5em;
+}
 
+.conclusao {
+    margin-bottom: 0px;
+    padding: 20px 10px 35px 10px;
+}
 
 footer {
     background-image: linear-gradient(to bottom, var(--cor4), var(--cor5));
@@ -109,4 +140,15 @@ footer p {
     font-size: 1.4em;
     color: rgb(0, 0, 0);
     margin-bottom: 0px;
+}
+
+
+/* Configurações para todas as páginas */
+
+.voltar1, .outras-paginas {
+    text-decoration: none;
+}
+
+.voltar1:hover, .outras-paginas:hover {
+    text-decoration: underline;
 }
