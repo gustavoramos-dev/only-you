@@ -122,6 +122,18 @@ li {
     font-size: 1.5em;
 }
 
+.voltar1, .outras-paginas {
+    text-decoration: none;
+}
+
+.outras-paginas {
+    font-size: 1.15em;
+}
+
+.voltar1:hover, .outras-paginas:hover {
+    text-decoration: underline;
+}
+
 .conclusao {
     margin-bottom: 0px;
     padding: 20px 10px 35px 10px;
@@ -142,13 +154,10 @@ footer p {
     margin-bottom: 0px;
 }
 
+.nome-footer {
+    text-decoration: underline;
+}
+
 
 /* Configurações para todas as páginas */
 
-.voltar1, .outras-paginas {
-    text-decoration: none;
-}
-
-.voltar1:hover, .outras-paginas:hover {
-    text-decoration: underline;
-}
